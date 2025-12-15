@@ -132,7 +132,5 @@ This project demonstrates a complete understanding of **Bézier curve mathematic
 
 ---
 
-**Author:** Your Name  
-**Course:** Course Name  
-**Date:** Submission Date
+**Author:** Srishty
 
