@@ -117,14 +117,6 @@ All rendering is performed using the HTML Canvas API.
 
 ---
 
-## 8. Constraints Followed
-
-- No Bézier APIs (e.g., `bezierCurveTo`, `UIBezierPath`)
-- No physics or animation libraries
-- All math implemented manually
-- Real-time interactivity maintained
-
----
 
 ## 9. Conclusion
 
