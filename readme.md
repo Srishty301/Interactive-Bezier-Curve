@@ -45,7 +45,7 @@ The derivative is normalized and drawn along the curve.
 The **normal vector** is computed as a perpendicular to the tangent:
 
 \[
-N = (-T_y, T_x)
+N(t)=(−Ty​Tx​​)
 \]
 
 Together, the tangent and normal vectors form the **local Frenet frame**, describing the curve’s local orientation.
@@ -57,7 +57,7 @@ Together, the tangent and normal vectors form the **local Frenet frame**, descri
 Curvature is estimated numerically by measuring the change in tangent direction between nearby points:
 
 \[
-\kappa \approx |T(t + \Delta t) - T(t)|
+κ(t)≈∥T(t+Δt)−T(t)∥
 \]
 
 The curve is color-mapped based on curvature magnitude:
@@ -73,10 +73,33 @@ This highlights regions where the curve bends more sharply.
 The dynamic control points (P₁ and P₂) follow a target position using a **spring–damper system**:
 
 \[
-a = -k(x - x_{target}) - c v
+a=−k(x−xtarget​)−cv
 \]
 
 Where:
+x — current position
+
+𝑥
+𝑡
+𝑎
+𝑟
+𝑔
+𝑒
+𝑡
+x
+target
+	​
+
+ — target position
+
+𝑣
+v — velocity
+
+𝑘
+k — spring stiffness
+
+𝑐
+c — damping coefficient
 - \( k \) is the stiffness constant
 - \( c \) is the damping coefficient
 - \( v \) is velocity
