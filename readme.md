@@ -114,4 +114,26 @@ requestAnimationFrame()
 ```
 ---
 
-## 7. Rendering Features The visualization includes: - Cubic Bézier curve - Control polygon (dashed) - Control points - Tangent vectors (orange) - Normal vectors (blue) - Curvature-based coloring - Subtle 2D reference grid All rendering is performed using the HTML Canvas API. --- ## 9. Conclusion This project demonstrates a complete understanding of **Bézier curve mathematics**, **differential geometry**, and **physics-based motion**, combined with real-time interactive rendering. The additional visualizations provide deeper insight into the geometric and dynamic behavior of the curve. --- **Author:** Srishty
+## 7. Rendering Features
+
+The visualization includes:
+
+- Cubic Bézier curve  
+- Control polygon (dashed)  
+- Control points  
+- Tangent vectors (orange)  
+- Normal vectors (blue)  
+- Curvature-based coloring  
+- Subtle 2D reference grid  
+
+All rendering is performed using the **HTML Canvas API**.
+
+---
+
+## 9. Conclusion
+
+This project demonstrates a complete understanding of **Bézier curve mathematics**, **differential geometry**, and **physics-based motion**, combined with real-time interactive rendering. The additional visualizations provide deeper insight into the geometric and dynamic behavior of the curve.
+
+---
+
+**Author:** Srishty
