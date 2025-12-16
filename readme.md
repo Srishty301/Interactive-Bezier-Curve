@@ -22,7 +22,7 @@ The curve equation is:
 B(t) = (1−t)³P₀ + 3(1−t)²tP₁ + 3(1−t)t²P₂ + t³P₃
 \]
 
-where \( t \in [0, 1] \).
+where t∈[0,1]
 
 The curve is rendered by sampling the equation at small intervals of \( t \) (Δt ≈ 0.01).
 
