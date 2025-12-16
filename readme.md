@@ -19,7 +19,7 @@ A **cubic Bézier curve** is defined using four control points:
 The curve equation is:
 
 \[
-B(t) = (1 - t)^3 P_0 + 3(1 - t)^2 t P_1 + 3(1 - t)t^2 P_2 + t^3 P_3
+B(t) = (1−t)³P₀ + 3(1−t)²tP₁ + 3(1−t)t²P₂ + t³P₃
 \]
 
 where \( t \in [0, 1] \).
@@ -35,9 +35,7 @@ The curve is rendered by sampling the equation at small intervals of \( t \) (Δ
 The tangent at any point on the curve is computed using the first derivative:
 
 \[
-B'(t) = 3(1 - t)^2 (P_1 - P_0)
-      + 6(1 - t)t (P_2 - P_1)
-      + 3t^2 (P_3 - P_2)
+B'(t) = 3(1−t)²(P₁−P₀) + 6(1−t)t(P₂−P₁) + 3t²(P₃−P₂)
 \]
 
 The derivative is normalized and drawn along the curve.
